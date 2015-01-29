@@ -1,10 +1,10 @@
 {
-  "code": "en",
-  "language": "English",
-  "maintainers": ["schacon"],
+  "code": "ko",
+  "language": "Korean",
+  "maintainers": ["pismute"],
   "files": {
     "01-introduction": {
-      "1-introduction.asc": 0,
+      "1-introduction.asc": 100,
       "sections/about-version-control.asc": 0,
       "sections/basics.asc": 0,
       "sections/command-line.asc": 0,
