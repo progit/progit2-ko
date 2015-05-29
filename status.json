@@ -78,11 +78,11 @@
       "sections/subtree-merges.asc": 0
     },
     "08-customizing-git": {
-      "1-customizing-git.asc": 0,
-      "sections/attributes.asc": 0,
-      "sections/config.asc": 0,
-      "sections/hooks.asc": 0,
-      "sections/policy.asc": 0
+      "1-customizing-git.asc": 100,
+      "sections/attributes.asc": 100,
+      "sections/config.asc": 100,
+      "sections/hooks.asc": 100,
+      "sections/policy.asc": 100
     },
     "09-git-and-other-scms": {
       "1-git-and-other-scms.asc": 0,
@@ -97,24 +97,24 @@
       "sections/import-tfs.asc": 0
     },
     "10-git-internals": {
-      "1-git-internals.asc": 0,
-      "sections/environment.asc": 0,
-      "sections/maintenance.asc": 0,
-      "sections/objects.asc": 0,
-      "sections/packfiles.asc": 0,
-      "sections/plumbing-porcelain.asc": 0,
-      "sections/refs.asc": 0,
-      "sections/refspec.asc": 0,
-      "sections/transfer-protocols.asc": 0
+      "1-git-internals.asc": 100,
+      "sections/environment.asc": 100,
+      "sections/maintenance.asc": 100,
+      "sections/objects.asc": 100,
+      "sections/packfiles.asc": 100,
+      "sections/plumbing-porcelain.asc": 100,
+      "sections/refs.asc": 100,
+      "sections/refspec.asc": 100,
+      "sections/transfer-protocols.asc": 100
     },
     "A-git-in-other-environments": {
-      "1-git-other-environments.asc": 0,
-      "sections/bash.asc": 0,
-      "sections/eclipse.asc": 0,
-      "sections/guis.asc": 0,
-      "sections/powershell.asc": 0,
-      "sections/visualstudio.asc": 0,
-      "sections/zsh.asc": 0
+      "1-git-other-environments.asc": 100,
+      "sections/bash.asc": 100,
+      "sections/eclipse.asc": 100,
+      "sections/guis.asc": 100,
+      "sections/powershell.asc": 100,
+      "sections/visualstudio.asc": 100,
+      "sections/zsh.asc": 100
     },
     "B-embedding-git": {
       "1-embedding-git.asc": 0,
@@ -123,7 +123,7 @@
       "sections/libgit2.asc": 0
     },
     "C-git-commands": {
-      "1-git-commands.asc": 0
+      "1-git-commands.asc": 100
     }
   }
 }
