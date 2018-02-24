@@ -76,7 +76,7 @@ namespace :book do
 
     repo = ENV['TRAVIS_REPO_SLUG']
     puts "Converting to PDF... (this one takes a while)"
-    exec_or_raise("asciidoctor-pdf-cjk-kai_gen_gothic-install")
+    # exec_or_raise("asciidoctor-pdf-cjk-kai_gen_gothic-install")
     exec_or_raise("bundle exec asciidoctor-pdf -r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicKR #{progit_v}.asc")
     puts " -- PDF output at #{progit_v}.pdf"
   end
