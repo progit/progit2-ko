@@ -1,0 +1,32 @@
+extends: default
+font:
+  catalog:
+    merge: true
+    kaiGen-gothic-kr:
+      normal: KaiGenGothicKR-Regular.ttf
+      bold: KaiGenGothicKR-Bold.ttf
+      italic: KaiGenGothicKR-Regular-Italic.ttf
+      bold_italic: KaiGenGothicKR-Bold-Italic.ttf
+    Noto Serif:
+      normal: GEM_FONTS_DIR/notoserif-regular-subset.ttf
+      bold: GEM_FONTS_DIR/notoserif-bold-subset.ttf
+      italic: GEM_FONTS_DIR/notoserif-italic-subset.ttf
+      bold_italic: GEM_FONTS_DIR/notoserif-bold_italic-subset.ttf
+    # M+ 1mn supports ASCII and the circled numbers used for conums
+    M+ 1mn:
+      normal: GEM_FONTS_DIR/mplus1mn-regular-subset.ttf
+      bold: GEM_FONTS_DIR/mplus1mn-bold-subset.ttf
+      italic: GEM_FONTS_DIR/mplus1mn-italic-subset.ttf
+      bold_italic: GEM_FONTS_DIR/mplus1mn-bold_italic-subset.ttf
+  fallbacks:
+  - kaiGen-gothic-kr
+base:
+  font-family: kaiGen-gothic-kr
+heading:
+  font-family: $base-font-family
+abstract:
+  title:
+    font-family: $heading-font-family
+sidebar:
+  title:
+    font-family: $heading-font-family

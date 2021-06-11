@@ -103,7 +103,7 @@ namespace :book do
       check_contrib()
 
       puts 'Converting to PDF... (this one takes a while)'
-      `bundle exec asciidoctor-pdf #{params} -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicKR progit.asc `
+      `bundle exec asciidoctor-pdf #{params} -a scripts=cjk -a pdf-theme=./korean-theme.yml -a pdf-fontsdir=$(ruby -r asciidoctor-pdf-cjk-kai_gen_gothic -e "print File.expand_path '../fonts', (Gem.datadir 'asciidoctor-pdf-cjk-kai_gen_gothic')") progit.asc 2>/dev/null`
       puts ' -- PDF output at progit.pdf'
   end
 
